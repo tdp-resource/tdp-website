@@ -53,14 +53,16 @@ a {
     padding: 10px 15px;
 }
 .panel-footer {
-    border-top: 1px solid #bbb;
+    border-top: 1px solid;
+    border-image:linear-gradient(to right, rgba(38, 204, 135, 0.8),rgba(207, 45, 167, 0.8)) 1;
     display: flex;
 }
 .panel-footer-btn {
     flex: 1;
     text-align: center;
     padding: 10px 15px;
-    border-right: 1px solid #bbb
+    border-right: 1px solid;
+    border-image:linear-gradient(to right, rgba(38, 204, 135, 0.8),rgba(207, 45, 167, 0.8)) 1;
 }
 .panel-footer-btn:last-child {
     border: 0;
