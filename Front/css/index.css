@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    text-indent: 2em;
+}
+a {
+    color: #3F51B5;
+    text-decoration: none;
+}
+.body-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-image: url(//ll00.cn/image/bingBackground);
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.firstPanelIcons {
+    height: 2.5rem;
+    width: 100%;
+}
+.tdp-badge {
+    height: 3rem;
+    max-width: 100vw;
+    object-fit: scale-down;
+}
+.tdp-icons{
+    height: 35px;
+    padding-right: 5px;
+}
+.btn-footer {
+    text-align: center !important;
+}

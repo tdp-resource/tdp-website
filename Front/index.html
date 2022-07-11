@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>腾云先锋 | TDP</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/json2html/2.2.2/json2html.min.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="tencent-w3.css" /> -->
+</head>
+<body>
+<div class="body-background"></div>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="text-center"><img src="https://editor.tdp.plus/assets/images/tdp-logo.png"
+                class="tdp-badge"></div>
+            <hr>
+        <p>腾云先锋（TDP，Tencent Cloud Developer Pioneer）是腾讯云GTS官方组建并运营的技术开发者群体。</p>
+            <p>这里有最专业的开发者&客户，能与产品人员亲密接触，专有的问题&需求反馈渠道，有一群志同道合的兄弟姐妹。</p>
+            <hr>
+            <div class="btn-footer">
+            <div class="row text-center">
+            <a href="https://cloud.tencent.com/developer/article/1855195" class="col" target="_blank">
+                <img src="icons/team.svg" alt="" class="firstPanelIcons">
+                <br>加入我们</a>
+        	<a href="https://cloud.tencent.com/voc" class="col" target="_blank">
+                <img src="icons/voc.svg" alt="" class="firstPanelIcons">
+                <br>用户之声</a>
+        	<a href="https://cloud.tencent.com/online-service?from=tdp" class="col" target="_blank">
+                <img src="icons/service.svg" alt="" class="firstPanelIcons">
+                <br>智能客服</a>
+        	<a href="https://cloud.tencent.com/developer/user/8879646" class="col" target="_blank">
+                <img src="icons/dev.svg" alt="" class="firstPanelIcons">
+                <br>开发者社区</a>
+            </div>
+        </div>
+    </div>
+        </div>
+<br>
+
+    <div class="card">
+        <div class="card-header lead">
+            <i class="bi bi-pencil-square text-primary"> </i>技术早报编辑器</div>
+        <div class="card-body">
+            <p>技术早报编辑器是由腾云先锋成员（<b>TDP-若海</b>）所编写的一款微信群技术早报消息生成器，为早报发布人员提供了便捷的早报内容生成，省去了大量的文章内容摘取时间。</p>
+　　    <hr>
+        <div class="btn-footer">
+            <a href="https://editor.tdp.plus/" class="btn btn-primary">打开编辑器</a>
+            <a href="https://github.com/tdp-resouce/paper-editor" class="offset-2 align-self-center btn btn-primary" target="_blank">
+                <i class="bi bi-github text-white"> </i>源码</a>
+        </div>
+    </div>
+</div>
+
+<br>
+    <div class="card">
+        <div class="card-header lead"><i class="bi bi-flag-fill text-primary"></i> 最新活动</div>
+        <div class="card-body">
+        <ul class="list-group" id="activities">
+
+<!--     <li class="list-group-item">
+            <span class="badge text-bg-${statusIcon}">${status}</span>
+            <a href="${link}" target="_blank"> ${title}</a>
+            </li> -->
+          </ul>
+        </div>
+    
+    </div>
+    <div id="aplayer"></div>
+    <footer class="footer">
+        <a href="http://beian.miit.gov.cn" target="_blank">粤ICP备17128882号</a>
+    </footer>
+</div>
+</body>
+</html>
+<script>
+    $(document).ready(()=>{
+        getActivities()
+    })
+</script>
